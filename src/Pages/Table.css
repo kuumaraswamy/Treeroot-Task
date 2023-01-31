@@ -1,0 +1,33 @@
+.table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left:10rem;
+  }
+  
+  .table-header {
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+  }
+  
+  .table-row {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .table-cell {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .table-cell:first-child {
+    width: 25%;
+  }
+  
+  .table-cell:nth-child(2) {
+    width: 50%;
+  }
+  
+  .table-cell:last-child {
+    width: 25%;
+  }
+  
